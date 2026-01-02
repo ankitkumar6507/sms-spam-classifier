@@ -44,6 +44,57 @@ This project builds an ML model to automatically detect spam messages while **mi
 
 ---
 
+## 📝 Jupyter Notebook (`notebook/sms_spam_detection.ipynb`)
+
+The notebook contains the **complete development workflow** of the SMS Spam Detection project:
+
+1. **Data Loading & Exploration (EDA)**  
+   - Loaded SMS dataset  
+   - Checked class distribution (spam vs ham)  
+   - Performed basic text analysis (message lengths, word counts)
+
+2. **Data Preprocessing**  
+   - Lowercased text  
+   - Removed punctuation  
+   - Tokenized and cleaned messages  
+
+3. **Feature Extraction**  
+   - Converted text into **numerical features using TF-IDF**  
+   - Experimented with `max_features` to balance precision and recall  
+
+4. **Model Building & Evaluation**  
+   - Trained **Multinomial Naive Bayes** and other ML model (Logistic Regression)  
+   - Compared metrics: **accuracy, precision, recall**  
+   - Selected **high-precision model** for deployment  
+
+5. **Pickle Export**  
+   - Saved trained model and TF-IDF vectorizer using `pickle`  
+   - Used these files for deployment in the Streamlit app  
+
+6. **Conclusion**  
+   - Explained trade-offs between precision and recall  
+   - Justified model selection based on real-world spam detection requirements
+
+[View Full Notebook](notebook/sms_spam_detection.ipynb)
+
+---
+
+## 📂 File Structure
+
+ ms-spam-classifier/
+│
+├── app.py # Streamlit web app
+├── model.pkl # Trained ML model
+├── tfidf.pkl # TF-IDF vectorizer
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+├── .gitignore # Ignored files/folders
+└── notebook/
+       └── sms_spam_detection.ipynb # Jupyter notebook with EDA and experiments
+
+
+---
+
 ## 🚀 How to Run Locally
 
 1. Clone the repo:
@@ -51,3 +102,6 @@ This project builds an ML model to automatically detect spam messages while **mi
 ```bash
 git clone https://github.com/ankitkumar6507/sms-spam-classifier.git
 cd sms-spam-classifier
+pip install -r requirements.txt
+streamlit run app.py
+    
