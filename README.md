@@ -107,7 +107,7 @@ streamlit run app.py
 
 ```
    
-##📧 Author
+## 📧 Author
 
 Ankit Kumar
  - B.Tech CSE (AI & ML)
