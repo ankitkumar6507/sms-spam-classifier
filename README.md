@@ -104,7 +104,9 @@ git clone https://github.com/ankitkumar6507/sms-spam-classifier.git
 cd sms-spam-classifier
 pip install -r requirements.txt
 streamlit run app.py
-    
+
+```
+   
 📧 Author
 
 Ankit Kumar
