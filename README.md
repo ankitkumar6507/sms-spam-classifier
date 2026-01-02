@@ -82,15 +82,15 @@ The notebook contains the **complete development workflow** of the SMS Spam Dete
 ## 📂 File Structure
 
  ms-spam-classifier/
-│
-├── app.py # Streamlit web app
-├── model.pkl # Trained ML model
-├── tfidf.pkl # TF-IDF vectorizer
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-├── .gitignore # Ignored files/folders
-└── notebook/
-       └── sms_spam_detection.ipynb # Jupyter notebook with EDA and experiments
+- │
+- ├── app.py # Streamlit web app
+- ├── model.pkl # Trained ML model
+- ├── tfidf.pkl # TF-IDF vectorizer
+- ├── requirements.txt # Python dependencies
+- ├── README.md # Project documentation
+- ├── .gitignore # Ignored files/folders
+- └── notebook/
+-       └── sms_spam_detection.ipynb # Jupyter notebook with EDA and experiments
 
 
 ---
