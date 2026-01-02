@@ -105,3 +105,8 @@ cd sms-spam-classifier
 pip install -r requirements.txt
 streamlit run app.py
     
+📧 Author
+
+Ankit Kumar
+
+B.Tech CSE (AI & ML)
