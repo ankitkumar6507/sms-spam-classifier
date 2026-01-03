@@ -95,6 +95,13 @@ The notebook contains the **complete development workflow** of the SMS Spam Dete
 
 ---
 
+<p align="center">
+  <img src="screenshots/home.png" width="300"/>
+  <img src="screenshots/spam_example.png" width="300"/>
+  <img src="screenshots/ham_example.png" width="300"/>
+</p>
+
+
 ## 🚀 How to Run Locally
 
 1. Clone the repo:
