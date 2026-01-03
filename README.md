@@ -98,7 +98,7 @@ The notebook contains the **complete development workflow** of the SMS Spam Dete
 
 **Home Page**
 
-![Home](screenshots/home.png)
+<img src="screenshots/confusion_matrix.png" width="450"/>
 
 **Spam Message Prediction**
 
