@@ -94,12 +94,24 @@ The notebook contains the **complete development workflow** of the SMS Spam Dete
 
 
 ---
+### App Screenshots
 
-<p align="center">
-  <img src="screenshots/home.png" width="300"/>
-  <img src="screenshots/spam_example.png" width="300"/>
-  <img src="screenshots/ham_example.png" width="300"/>
-</p>
+**Home Page**
+
+![Home](screenshots/home.png)
+
+**Spam Message Prediction**
+
+![Spam](screenshots/spam_example.png)
+
+**Not Spam Prediction**
+
+![Ham](screenshots/ham_example.png)
+
+**Model Performance**
+
+![Metrics](screenshots/metrics.png)
+
 
 
 ## 🚀 How to Run Locally
