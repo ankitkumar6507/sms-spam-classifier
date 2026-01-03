@@ -78,39 +78,23 @@ The notebook contains the **complete development workflow** of the SMS Spam Dete
 [View Full Notebook](notebook/sms_spam_detection.ipynb)
 
 ---
-
-## 📂 File Structure
-
- ms-spam-classifier/
-- │
-- ├── app.py # Streamlit web app
-- ├── model.pkl # Trained ML model
-- ├── tfidf.pkl # TF-IDF vectorizer
-- ├── requirements.txt # Python dependencies
-- ├── README.md # Project documentation
-- ├── .gitignore # Ignored files/folders
-- └── notebook/
--       └── sms_spam_detection.ipynb # Jupyter notebook with EDA and experiments
-
-
----
 ### App Screenshots
 
-**Home Page**
+**Confusion Matrix**
 
 <img src="screenshots/confusion_matrix.png" width="450"/>
 
-**Spam Message Prediction**
+**Home**
 
-![Spam](screenshots/spam_example.png)
+<img src="screenshots/home.png" width="450"/>
+
+**Spam SMS Prediction**
+
+<img src="screenshots/ham_example.png" width="450"/>
 
 **Not Spam Prediction**
 
-![Ham](screenshots/ham_example.png)
-
-**Model Performance**
-
-![Metrics](screenshots/metrics.png)
+<img src="screenshots/spam_example.png" width="450"/>
 
 
 
